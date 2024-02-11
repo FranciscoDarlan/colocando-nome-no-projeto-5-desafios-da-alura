@@ -59,6 +59,14 @@ function desafio_3() {
     } else {
         alert('Tente novamente para ganhar.');
     }
+
+    //  RESOLUÇÃO DO PROFESSOR:
+    //  pontuacao = 105;
+    //  if (pontuacao >= 100) {
+    //    console.log('Parabéns, você venceu!');
+    // } else {
+    //  .log('Tente novamente para ganhar.');
+    //  }
 };
 
 function desafio_4() {
