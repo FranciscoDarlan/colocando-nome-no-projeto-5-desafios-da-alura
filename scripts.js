@@ -74,6 +74,12 @@ function desafio_4() {
     alert('VAI INICIAR O DESAFIO 4');
     let saldo = prompt('QUANTO VOCÊ TEM NA CONTA ??')
     alert(` SEU SALDO NA CONTA É DE ${saldo} REAIS.`)
+
+
+    //  RESOLUÇÃO PROFESSOR:
+    //  let saldoConta = 500; // Exemplo de saldo
+    //  alert(`Seu saldo é de R$${saldoConta}.`);
+
 };
 
 function desafio_5() {
