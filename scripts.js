@@ -37,6 +37,14 @@ function desafio_2() {
     if (numeroDigitado < 0) {
         alert('SEU NÚMERO É NEGATIVO !!!!')
     }
+
+    //  RESPOSTA DO PROFESSOR:
+    //  numero = prompt('Digite um positivo ou negativo');
+    //  if (numero > 0) {
+    //   alert('Número positivo!');
+    //  } else {
+    //   alert('Número negativo!');
+    //  }
 };
 
 function desafio_3() {
