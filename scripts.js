@@ -1,25 +1,60 @@
 
 function desafio_1(){
-    console.log('fui chamado desafio 1');
-    alert('fui chamado desafio 1');
+    let diasDasemana = [ 'segunda', 'terça', 'quarta', 'quinta', 'sexta'];
+    let diasFinaisSemana = [ 'sabado', 'domingo'];
+    console.log(diasDasemana)
+    console.log(diasFinaisSemana)
+
+    alert('desafio 1 vai ser iniciado!');
+   let diaDaSemana = prompt('QUAL DIA DA SEMANA VOCÊ ESTÁ?');
+    console.log(diaDaSemana)
+
+   if (diaDaSemana === 'domingo'||'sabado'){
+        alert('BOM FIM DE SEMANA!')
+        console.log(diaDaSemana === 'domingo'||'sabado')
+   } else{
+    alert('BOA SEMANA!')
+   }
 };
 
 function desafio_2(){
-    console.log('fui chamado desafio 2');
-    alert('fui chamado desafio 2');
+    
+    alert('VAI INICIAR O DESAFIO 2');
+    alert('IREI FALAR SE SEU NÚMERO É POSITVO OU NEGATIVO ..');
+    let numeroDigitado = prompt('DIGITE UM NÚMERO "POSITIVO" OU "NEGATIVO" ...');
+
+    if ( numeroDigitado > 0) {
+        alert('SEU NÚMERO É POSITVO!!!')
+    }
+
+    if (numeroDigitado < 0) {
+        alert('SEU NÚMERO É NEGATIVO !!!!')
+    }
 };
 
 function desafio_3(){
-    console.log('fui chamado desafio 3');
-    alert('fui chamado desafio 3');
+    
+    alert('VAI INICIAR O DESAFIO 3');
+    alert('FALE UM NÚMERO DE 1 A 1000 !!!!');
+    let score = prompt('O NÚMERO QUE VOCÊ FALOU É A QUANTIDADE DE PONTOS QUE VOCÊ FEZ NO JOGO! QUAL NÚMERO QUE VOCÊ FALOU? ');
+
+    if (score >= 100) {
+        alert('Parabéns, você venceu!');
+
+    }else{
+        alert('Tente novamente para ganhar.');
+    }
 };
 
 function desafio_4(){
-    console.log('fui chamado desafio 4');
-    alert('fui chamado desafio 4');
+    
+    alert('VAI INICIAR O DESAFIO 4');
+    let saldo = prompt('QUANTO VOCÊ TEM NA CONTA ??')
+    alert(` SEU SALDO NA CONTA É DE ${saldo} REAIS.`)
 };
 
 function desafio_5(){
-    console.log('fui chamado desafio 5');
-    alert('fui chamado desafio 5');
+    
+    let nome = prompt('QUAL SEU NOME?')
+    alert(`OLÁ ${nome}! SEJA BEM VINDO  AO DESAFIO 5`);
 };
