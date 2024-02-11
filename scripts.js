@@ -86,4 +86,8 @@ function desafio_5() {
 
     let nome = prompt('QUAL SEU NOME?')
     alert(`OLÁ ${nome}! SEJA BEM VINDO  AO DESAFIO 5`);
+
+    // RESOLUÇÃO DO PROFESSOR:
+    //   let nome = prompt('Qual o seu nome?');
+    //   alert(`Boas vindas ${nome}`);
 };
